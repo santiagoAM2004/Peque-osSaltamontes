@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mis pequeños grillos"
+        android:textSize="30sp"
+        android:layout_margin="30dp"
+        android:textColor="@color/green"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/loginStudents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="login students"
+        android:layout_margin="15dp"
+        android:backgroundTint="@color/green"
+        />
+
+    <Button
+        android:id="@+id/statistics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="statistics"
+        android:layout_margin="15dp"
+        android:backgroundTint="@color/green"/>
+
+    <Button
+        android:id="@+id/reportStudens"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Repoort Students"
+        android:layout_margin="15dp"
+        android:backgroundTint="@color/green"/>
+
+    <Button
+        android:id="@+id/ayuda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/green"
+        android:layout_margin="50dp"
+        android:text="ayuda"
+
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginStudents"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student's Informations"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="@color/green"
+        android:layout_margin="20sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        />
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        />
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        />
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student's Notes"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="@color/green"
+        android:layout_margin="20sp"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/course1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type the course"
+            android:textSize="20dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/note1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:hint="Note"
+            android:textSize="20dp"
+            android:layout_margin="5dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/course2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type the course"
+            android:textSize="20dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/note2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:hint="Note"
+            android:textSize="20dp"
+            android:layout_margin="5dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/course3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type the course"
+            android:textSize="20dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/note3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:hint="Note"
+            android:textSize="20dp"
+            android:layout_margin="5dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/course4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type the course"
+            android:textSize="20dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/note4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:hint="Note"
+            android:textSize="20dp"
+            android:layout_margin="5dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/course5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type the course"
+            android:textSize="20dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/note5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:hint="Note"
+            android:textSize="20dp"
+            android:layout_margin="5dp" />
+
+    </LinearLayout>
+</LinearLayout>
