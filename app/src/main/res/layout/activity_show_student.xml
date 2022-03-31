@@ -4,88 +4,45 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginStudents"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".showStudentActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Student's Informations"
-        android:textSize="16sp"
+        android:text="Student's Information"
+        android:textSize="30sp"
         android:textAlignment="center"
         android:textColor="@color/green"
         android:layout_margin="10sp"
         android:textStyle="bold"
         />
 
-    <EditText
-        android:id="@+id/fieldName"
+    <TextView
+        android:id="@+id/name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:gravity="center"
         android:hint="Name"
-        android:textSize="20dp"
-        android:layout_margin="5dp"
+        android:layout_margin="15dp"
         />
-    <EditText
-        android:id="@+id/fieldID"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="ID"
-        android:textSize="20dp"
-        android:layout_margin="5dp"
-        />
-    <EditText
-        android:id="@+id/fieldAge"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="age"
-        android:textSize="20dp"
-        android:layout_margin="5dp"
-        />
-    <EditText
-        android:id="@+id/fieldPhone"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="phone"
-        android:textSize="20dp"
-        android:layout_margin="5dp"
-        />
-    <EditText
-        android:id="@+id/fieldAddress"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Address"
-        android:textSize="20dp"
-        android:layout_margin="5dp"
-        />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Student's Notes"
-        android:textSize="16sp"
-        android:textAlignment="center"
-        android:textColor="@color/green"
-        android:layout_margin="10sp"
-        android:textStyle="bold"
-        />
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <EditText
-            android:id="@+id/fieldMateria1"
+        <TextView
+            android:id="@+id/Materia1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Type the course"
+            android:hint="course"
             android:textSize="20dp"
             android:layout_margin="5dp"
             android:layout_weight="1"/>
 
-        <EditText
-            android:id="@+id/fieldNote1"
+        <TextView
+            android:id="@+id/Note1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="3"
@@ -99,17 +56,17 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <EditText
-            android:id="@+id/fieldMateria2"
+        <TextView
+            android:id="@+id/Materia2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Type the course"
+            android:hint="course"
             android:textSize="20dp"
             android:layout_margin="5dp"
             android:layout_weight="1"/>
 
-        <EditText
-            android:id="@+id/fieldNote2"
+        <TextView
+            android:id="@+id/Note2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="3"
@@ -123,17 +80,17 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <EditText
-            android:id="@+id/fieldMateria3"
+        <TextView
+            android:id="@+id/Materia3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Type the course"
+            android:hint="course"
             android:textSize="20dp"
             android:layout_margin="5dp"
             android:layout_weight="1"/>
 
-        <EditText
-            android:id="@+id/fieldNote3"
+        <TextView
+            android:id="@+id/Note3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="3"
@@ -147,17 +104,17 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <EditText
-            android:id="@+id/fieldMateria4"
+        <TextView
+            android:id="@+id/Materia4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Type the course"
+            android:hint="course"
             android:textSize="20dp"
             android:layout_margin="5dp"
             android:layout_weight="1"/>
 
-        <EditText
-            android:id="@+id/fieldNote4"
+        <TextView
+            android:id="@+id/Note4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="3"
@@ -171,17 +128,17 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <EditText
-            android:id="@+id/fieldMateria5"
+        <TextView
+            android:id="@+id/Materia5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Type the course"
+            android:hint="course"
             android:textSize="20dp"
             android:layout_margin="5dp"
             android:layout_weight="1"/>
 
-        <EditText
-            android:id="@+id/fieldNote5"
+        <TextView
+            android:id="@+id/Note5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="3"
@@ -190,12 +147,29 @@
             android:layout_margin="5dp" />
 
     </LinearLayout>
-    <Button
-        android:id="@+id/logUp"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/green"
-        android:layout_margin="10dp"
-        android:text="Log up"
-        />
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/average"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Average"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_margin="30dp" />
+
+        <TextView
+            android:id="@+id/winOrDefeat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Test"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_margin="30dp" />
+    </LinearLayout>
 </LinearLayout>

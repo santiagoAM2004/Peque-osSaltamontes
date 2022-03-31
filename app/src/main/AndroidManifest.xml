@@ -10,13 +10,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MisPequeñosSaltamontes">
         <activity
-            android:name=".LoginStudents"
+            android:name=".showStudentActivity"
             android:exported="false" />
         <activity
-            android:name=".CreateStudens"
+            android:name=".StatisticsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HelpActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginStudents"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
