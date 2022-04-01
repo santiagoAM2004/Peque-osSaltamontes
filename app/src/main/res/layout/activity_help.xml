@@ -17,4 +17,19 @@
         android:layout_margin="10sp"
         android:textStyle="bold"
         />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:background="@color/green">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:text="that aplications was developed for caculate student's average, it's easy to use and have interface friendly with the users."
+            />
+    </LinearLayout>
 </LinearLayout>

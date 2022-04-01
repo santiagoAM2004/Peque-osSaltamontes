@@ -82,10 +82,10 @@ class LoginStudents : AppCompatActivity() {
         est.note5= fieldNote5?.text.toString().toDouble()
 
         //Se asigna el promedio delegando el calculo al metodo de la clase operaciones
-        est.average= operations!!.caldulateAverage(est)
+        est.average= operations!!.performAverage(est)
+        est.state = operations!!.kwonStudentStatus(est)
 
-        operations?.logUpStudents(est)
-        operations?.printListOfStudents()
+        operations?.addStudent(est)
         sendData(est)
 
     }
